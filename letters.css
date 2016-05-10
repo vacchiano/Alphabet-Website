@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Beginning of letters.css comments */
+
+/* ************************************************
+	 University of Iowa
+	 2015 Fall
+	 Website Design I
+************************************************* */
+
+/* ************************************************
+	 Project: Alphabet Website
+	 Instructor: Wonjae Lee
+	 Designer: Your Name
+	 File: letters.css
+************************************************* */
+
+/* ************************************************
+	CHECK LIST
+***************************************************
+
+	letters.css
+
+	1. ( ) Google Fonts - Use of "@import"
+	2. () * { box-sizing: border-box; }
+	3. (x) body { font-family: ------- ; }
+		    - be careful with font-family name that
+		      has two words.
+	4. (x) .main-container { width: 960px; }
+	6. (x) navigation
+			- {position: fixed;}
+			- use of float: left or right.
+			- use of .nav-bar { overflow: hidden; }
+			- use of .anchor CSS.
+	7. (x) higerarchy of CSS rules
+		    ex. you don't want to put footer CSS Rule
+		    at the beginning of your CSS.
+	8. (x) use of your own comments within CSS.
+	        ex. c'mon don't forget this please. :p
+
+************* End of letters.css comments ******** */
+
+
+
+.home-image {
+    width: 5%;
+    position: fixed;
+    
+    /* top left of page */
+    top: 60px;
+    left: 70px;
+    
+    padding: 5px;
+    
+    
+}
+
+.home-image:hover {
+
+    border-bottom: solid yellow;
+}
+
+
+.letter-border {
+    width: 250px;
+    height: 200px;
+    
+    
+    padding-top: 50px;
+    margin: 0 auto;
+    
+    /* circle border */
+    border: solid 10px white;
+    border-radius: 50%;
+}
+
+.letter-page-container {
+    height: 730px;
+}
+
+
+.letter {
+    text-transform: uppercase;
+    text-align: center;
+    color: darkslategray;
+    line-height: 150px;
+    font-size: 200px;
+    padding-top: 100px;
+    
+    
+    
+}
+
+hr {
+    width: 50%;
+    
+    margin-top: 20px;
+    
+    border: solid 1px darkslategray;
+}
+
+
+
+
+.letter-page-container ul {
+    
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    line-height: 30px;
+    font-variant: small-caps;
+    
+    font-size: 3em;
+}
+    
+    
+
+.letter-page-container ul li{
+    width: 27%;
+    padding: 20px 0px 20px 0px;
+
+    margin-left: 5%;
+    mergin-right: 5%;
+    
+    display: inline;
+    
+    font-size: 1em;
+    
+    color: #F2F2F2;
+    float: left;
+    
+    text-align: center;
+    
+}
+    
+.top-image {
+    width: 5%;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    
+    padding: 5px;
+    
+    
+}
+
+.top-image:hover {
+
+    border-bottom: solid yellow;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
